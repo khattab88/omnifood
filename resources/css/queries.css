@@ -1,0 +1,153 @@
+/* big tablets to 1200px (withs smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+}
+
+/* small tablets to big tablets (from 768 to 1023px) */
+@media only screen and (max-width: 1023px) {
+
+    body { font-size: 18px; }
+    section { margin: 60px 0; }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    } 
+    
+    .section-steps { height: 90vh; }
+
+    .steps-box { margin-top: 10px; }
+
+    .works-step { margin-bottom: 40px; }
+
+    .app-screen { width: 70% }
+
+    .icon-small { 
+        width: 20px; 
+        margin-right: 0;
+    }
+
+    .city-feature { font-size: 85%; }
+
+    .plan-box { width: 100%; }
+
+    .plan-price { font-size: 250%; }
+
+    .contact-form { width: 70%; }
+}
+
+/* small phones to small tablets (from 481px to 767px) */
+@media only screen and (max-width: 767px) {
+
+    body { font-size: 16px; }
+
+    section { margin: 30px 0; }
+
+    .row,
+    .hero-text-box {
+        padding: 0 5%;
+    }
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px; 
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    h1 { font-size: 220%; }
+    h2 { font-size: 150%; }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icon-big { padding-left: 0; }
+
+    .section-steps { height: 125vh; }
+
+    .steps-box { margin-top: 10px; }
+
+    .steps-box:first-child { text-align: center; }
+
+    .steps-box:last-child { margin-top: 0; }
+
+    .works-step:last-of-type { margin-bottom: 60px; }
+
+    .works-step { margin-bottom: 40px; }
+
+    .app-screen { width: 80% }
+
+    .box {
+        text-align: center;
+        font-size: 125%;
+    }
+
+    .section-tesimonials {
+        height: 90vh;
+    }
+
+    blockquote {
+        margin-top: 0;
+        line-height: 100%;
+    }
+
+    .section-plans {
+        height: 200vh;
+    }
+
+    .plan-box {
+        margin-left: 1%;
+    }
+
+    .section-form {
+        height: 100vh;
+    }
+
+    .footer-nav { margin-left: 10%; }
+
+    .social-links { margin-right: 33%; }
+}
+
+/* small phones (from 0 to 480px) */
+@media only screen and (max-width: 480px) {
+
+    .contact-form { width: 100%; }
+
+    input[type=submit] {
+        margin-left: 30%;
+    }
+
+    .footer-nav {
+        margin-left: 0;
+    }
+}
